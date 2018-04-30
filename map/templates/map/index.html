@@ -1,0 +1,16 @@
+{% extends 'map\layout.html'%}
+{% block body %}
+    <h5 class="center">Technical Interview</h5>
+    <a class = "center-align btn" href="{% url 'visualization' %}">Visualization</a>
+    {% if queryset %}
+    <h2>Top Grossing Countries</h2>
+    <table class = "table">
+        <th>Country</th><th>Total Average Car Sales</th>
+        {% for instance in queryset %}
+        {% load humanize %}
+            
+            <tr><td>{{instance | first}}</td><td>{{instance | last | floatformat:2 | intcomma}}</td></tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+{% endblock %}

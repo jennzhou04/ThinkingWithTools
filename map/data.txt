@@ -1,0 +1,101 @@
+id,import_country,model,make,sold_by,sale_price
+1,China,LR2,Land Rover,Roselia Josselsohn,21784
+2,Brazil,Space,Mitsubishi,Sergei Janzen,18335
+3,China,Concorde,Chrysler,Mallory Elcox,13479
+4,Poland,E-Class,Mercedes-Benz,Alexi Cordeau],10564
+5,Kenya,3000GT,Mitsubishi,Lindy Shellshear,17898
+6,Finland,Tempo,Ford,Kaylyn Hexter,13959
+7,Canada,G-Series G30,Chevrolet,Rodrigo Astbery,13731
+8,Vietnam,Firebird,Pontiac,Laureen Alishoner,19097
+9,China,E-Series,Ford,Merv Woodburn,17982
+10,China,Riviera,Buick,Kata Ariss,11246
+11,China,Concorde,Chrysler,Casandra Harrowsmith,14751
+12,North Korea,Starion,Mitsubishi,Shae Gopsill,21539
+13,Philippines,Camaro,Chevrolet,Elden Scorah,11733
+14,Portugal,Savana,GMC,Philis Ebbs,14174
+15,Argentina,Zephyr,Lincoln,Babbie Dybald,19038
+16,United States,G-Series G10,Chevrolet,Alanah Alsford,11199
+17,Brazil,S4,Audi,Helen-elizabeth Gouldsmith,16798
+18,Indonesia,Escalade ESV,Cadillac,Sidonnie Alpin,10311
+19,Canada,Escort,Ford,Rickard Twoohy,18767
+20,Indonesia,911,Porsche,Emmett Wevell,19050
+21,Bosnia and Herzegovina,Caprice,Chevrolet,Jackie Baldry,12127
+22,Brazil,RX,Lexus,Vita Pumphreys,17683
+23,Indonesia,Touareg,Volkswagen,Belicia MacMorland,12518
+24,Egypt,C70,Volvo,Cassey McGowan,13849
+25,Norway,XT,Subaru,Pris Arbuckel,15076
+26,Mexico,Countryman,MINI,Bette Walton,14633
+27,China,F-Series,Ford,Kara-lynn Pidgeley,11865
+28,United States,Yaris,Toyota,Sena McBryde,17560
+29,Poland,626,Mazda,Ardene Phythian,17654
+30,China,Mulsanne,Bentley,Horst Clawsley,15138
+31,Kyrgyzstan,Commander,Jeep,Carlynne Mowen,12117
+32,Philippines,Rogue,Nissan,Raimund Moors,20950
+33,Ukraine,LS,Lexus,Jsandye Dooman,15992
+34,Czech Republic,Elan,Lotus,Renault Thulborn,15689
+35,China,Frontier,Nissan,Keven Linzee,20951
+36,Philippines,Corvette,Chevrolet,Lilian Judkins,13576
+37,Poland,Tundra,Toyota,Vasili Borwick,16879
+38,Pakistan,Monte Carlo,Chevrolet,Benni Christol,10311
+39,Indonesia,2500,GMC,Neila Tomkys,12271
+40,Philippines,A6,Audi,Carson Pashley,16629
+41,Moldova,Civic,Honda,Arlen McCloughlin,18645
+42,Botswana,Vitara,Suzuki,Bria Bohea,10632
+43,Portugal,Q,Infiniti,Mella Chestle,20046
+44,Venezuela,Camaro,Chevrolet,Myrah Dearlove,20399
+45,Sweden,Talon,Eagle,Jessey Dockwra,10551
+46,Greece,Fox,Volkswagen,Vyky Peel,12827
+47,Russia,Grand Prix,Pontiac,Tobey Bollum,20903
+48,South Africa,645,,Lorene Ibotson,14214
+49,Philippines,Century,Buick,Felizio Whitelock,14262
+50,China,Element,Honda,Thorstein Kite,12533
+51,France,323,Mazda,Dewie Rae,18218
+52,Mexico,S-Class,Mercedes-Benz,Dorotea Seagar,12279
+53,Japan,Cayenne,Porsche,Elianora Knowling,14987
+54,Indonesia,Versa,Nissan,Augustin Dunn,16912
+55,Russia,Suburban 2500,GMC,Joyous Yoslowitz,10940
+56,Bolivia,RX,Lexus,Carlyn Gaffney,12557
+57,South Korea,Q,Infiniti,Fionnula Girton,18894
+58,China,940,Volvo,Jill Mawd,13155
+59,Peru,Celica,Toyota,Gayle Mabey,15811
+60,Morocco,Sonata,Hyundai,Aristotle Skynner,18502
+61,China,,Lexus,Anatollo Hatzar,10569
+62,Guinea-Bissau,4000CS Quattro,Audi,Dania Toffoloni,15992
+63,Sweden,Talon,Eagle,Sinclair Dungey,14613
+64,Indonesia,Mustang,Ford,Melly Simper,12687
+65,China,Durango,Dodge,Adela Anan,15796
+66,Cameroon,Savana 3500,GMC,Maridel Skacel,11385
+67,China,RAV4,Toyota,Isa Pill,12121
+68,Indonesia,960,Volvo,Linnie Pannaman,16746
+69,Indonesia,Arnage,,Olav Jantet,21371
+70,Indonesia,F-Series,Ford,Eadith Happer,19053
+71,China,S70,Volvo,Grove Onion,19329
+72,Peru,928,Porsche,Viki Bradnock,18333
+73,Mongolia,Impala,Chevrolet,Hillier Rossant,11286
+74,Philippines,Pathfinder,Nissan,Case Lindell,20100
+75,Netherlands,5000CS,Audi,Storm Thonason,12094
+76,Sweden,Continental,Lincoln,Dolorita Alvarez,13882
+77,Belarus,Savana 1500,,Verina Wattinham,11187
+78,China,Country,Ford,Rhodia Whitham,20463
+79,Mexico,S-Series,Saturn,Tanya MacKeller,21451
+80,Venezuela,Jetta,Volkswagen,Aldus Poyntz,21031
+81,Russia,F250,Ford,Rosmunda Cork,13123
+82,Venezuela,J,Infiniti,Nickie Guiness,17708
+83,Nigeria,Econoline E150,Ford,Alberta Warden,11770
+84,United States,Lanos,Daewoo,Ryun Bleaden,13989
+85,Poland,MX-5,Mazda,Casar Rawkesby,11231
+86,Madagascar,Camaro,Chevrolet,Dari Vankov,15647
+87,Japan,Hearse,Buick,Maegan De Beauchamp,13756
+88,China,Frontier,Nissan,Parke Bacup,15825
+89,China,xD,Scion,Westbrooke Aneley,18099
+90,Mexico,Truck,Mitsubishi,Conn Livens,20339
+91,France,Swift,Suzuki,Patty Redwing,17387
+92,Philippines,Ram 3500,Dodge,Shayne Strain,14239
+93,China,525,BMW,Silvana Flag,13162
+94,China,Laser,Ford,Randa Mannagh,13741
+95,Indonesia,Silverado,Chevrolet,Shaun Chaffer,13895
+96,France,X3,BMW,Eirena McCandie,15778
+97,Thailand,H2,Hummer,Hedvige Mowbury,12422
+98,China,Vandura 3500,GMC,Orsa Lehmann,17516
+99,Norway,7 Series,BMW,Dee Midghall,17393
+100,Indonesia,T100 Xtra,Toyota,Jessi Ubsdale,14146
