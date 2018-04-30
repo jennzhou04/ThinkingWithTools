@@ -5,8 +5,10 @@ import MySQLdb
 from map.models import Map
 
 def get_data():
-    textfile = open("map/data.txt", 'r')
-    readin = textfile.read()
+    #textfile = open("map/data.txt", 'r')
+    #readin = textfile.read()
+    url = 'https://my.api.mockaroo.com/interview-api-0.json?key=e6ac1da0'
+    readin = requests.get(url).text
     dataset = readin.splitlines()
     #elements = []
     for line in dataset[1:]:
@@ -20,24 +22,5 @@ def get_data():
         temp.sale_price = float(sep[5])
         temp.save()
 
-def get_features():
-    db = MySQLdb.connect(host='localhost', user='root', passwd='1234', db='thinkingwithtools')
-    cur = db.cursor()
-    cur.execute("SELECT * FROM map_map")
-    data = cur.fetchall()
-
-    country = {}
-    for e in data:
-        if e.import_country in country:
-            country[e.import_country].append(e.sale_price)
-        else:
-            country[e.import_country]= []
-            country[e.import_country].append(e.sale_price)
-
-    for c in country:
-        country[c] = statistics.mean(country[c])
-
-    sorted_country = sorted(country.items(), key=operator.itemgetter(1))
-    top_5 = sorted_country[-5:]
 
 

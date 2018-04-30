@@ -6,6 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <title>Map Visualizaton</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="https://openlayers.org/en/v4.6.5/css/ol.css" type="text/css">
+    <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+    <script src="https://openlayers.org/en/v4.6.5/build/ol.js"></script>
+    <style>
+      .map {
+        height: 600px;
+        width: 100%;
+      }
+    </style>
 </head>
 <body>
     <header class = "container center-align">
@@ -14,6 +25,13 @@
 
     <div class = "container">
         {% block body %}
+        {% endblock %}
+        <br>
+        
+    </div>
+    <div class = "container">
+        {% block map %}
+        
         {% endblock %}
         <br>
         <a style"display:block" href="/admin">LOGIN</a>

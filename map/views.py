@@ -4,6 +4,8 @@ from . import importer
 from map.models import Map
 import statistics
 import operator
+import json
+from django.core.serializers.json import DjangoJSONEncoder
 
 # Create your views here.
 def index(request):
@@ -25,11 +27,14 @@ def index(request):
         qset[q] = statistics.mean(qset[q])
         
     queryset = sorted(qset.items(), key=operator.itemgetter(1))[-5:]
+    qset_json = json.dumps(list(queryset), cls=DjangoJSONEncoder)
 
     context = {
-        "queryset": queryset
+        "queryset": queryset,
+        "qset_list": qset_json
     }
     return render(request, 'map/index.html', context)
 
 def visualization(request):
     return render(request, 'map/visualization.html')
+
